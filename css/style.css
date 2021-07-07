@@ -14,5 +14,11 @@
 .debug .my_row_contact {
     height: 300px;
 }
+.debug .my_row_address {
+    height: 100px;
+}
+.debug .my_row_credit {
+    height: 50px;
+}
 
 /* fine debug */
