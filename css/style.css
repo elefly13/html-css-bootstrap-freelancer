@@ -9,10 +9,10 @@
     /* height: 100px; */
 }
 .debug .my_row_about {
-    height: 300px;
+    height: 100%;
 }
 .debug .my_row_contact {
-    height: 300px;
+    height: 100%;
 }
 .debug .my_row_address {
     height: 100px;
