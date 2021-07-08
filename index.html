@@ -10,27 +10,63 @@
 </head>
 <body class="debug">
     <header class="wrapper">
-        <nav class="my_menu">
-            <div class="container">
-                <div class="my_row_menu row border bg-primary">
-                    <div class="my_logo col-6 border">logo</div>
-                    <div class="my_menu col-6 border">menu</div>
+        <!-- inizio menu  -->
+        <nav class="my_nav_menu navbar navbar-expand-lg navbar-light gray">
+            <div class="my_nav-container container-fluid">
+                <a class="navbar-brand" href="#">START BOOTSTRAP</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link white" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </nav>
+        <!-- fine menu  -->
+        <!-- inizio banner  -->
         <section class="my_banner">
-            <div class="container">
-                <div class="my_row_banner row bg-secondary">
-                    <div class="my_banner col-6 border mx-auto">Banner</div>
+            <div class="my_ban_container container-fluid green">
+                <div class="my_row_banner row py-4">
+                    <div class="col-3  mx-auto">
+                        <img src="img/avatar.svg" alt="avatar">
+                    </div>
+                          
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 border">TITOLO</div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-4 border mx-auto">stella</div>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 border">Sottotitolo</div>
+                            </div>
+                        </div>
+                    <!-- </div> -->
                 </div>
             </div>
         </section>
+        <!-- fine banner  -->
     </header>
     <main class="wrappwer">
         <!-- inizio sezione portfolio  -->
         <section class="my_portfolio">
-            <div class="my_container_portfolio container">
-                <div class="my_row_portfolio py-4 row bg-success">
+            <div class="my_container_portfolio container-fluid ">
+                <div class="my_row_portfolio py-4 row">
                     <div class="container">
                         <div class="row">
                             <div class="col-2 border mx-auto">Portfolio</div>
@@ -38,7 +74,7 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-4 border mx-auto"></div>
+                            <div class="col-4 border mx-auto">stella</div>
                         </div>
                     </div>
                     <div class="container">
@@ -75,8 +111,8 @@
         <!-- fine sezione portfolio  -->
         <!-- inizio sezione about  -->
         <section class="my_about">
-            <div class="container">
-                <div class="my_row_about row py-4 bg-danger">
+            <div class="container-fluid green">
+                <div class="my_row_about row py-4">
                     <div class="container">
                         <div class="row">
                             <div class="col-2 border mx-auto">About</div>
@@ -108,9 +144,10 @@
             </div>
         </section>
         <!-- fine sezione about  -->
+        <!-- inizio sezione contact  -->
         <section class="my_contact">
-            <div class="container">
-                <div class="my_row_contact row py-4 bg-light">
+            <div class="container-fluid">
+                <div class="my_row_contact row py-4">
                     <div class="container">
                         <div class="row">
                             <div class="col-2 border mx-auto">Contact</div>
@@ -141,11 +178,13 @@
                 </div>    
             </div>
         </section>
+        <!-- fine sezione contact  -->
     </main>
     <footer class="wrapper">
+        <!-- inizio sezione footer top -->
         <section class="my_address">
-            <div class="container">
-                <div class="my_row_address row py-4 bg-info">
+            <div class="container-fluid avio">
+                <div class="my_row_address row py-4">
                     <div class="col-8 border mx-auto">
                         <div class="container">
                             <div class="row">
@@ -158,13 +197,16 @@
                 </div>
             </div>
         </section>
+        <!-- fine sezione footer top -->
+        <!-- inizio sezione footer bottom -->
         <section class="my_credit">
-            <div class="container">
-                <div class="my_row_credit row bg-light">
+            <div class="container-fluid gray">
+                <div class="my_row_credit row ">
                     <div class="col-1 border mx-auto">Credit</div>
                 </div>
             </div>
         </section>
+        <!-- fine sezione footer bottom  -->
     </footer>
 
 
