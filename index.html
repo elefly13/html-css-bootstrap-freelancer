@@ -67,7 +67,7 @@
         <!-- inizio sezione portfolio  -->
         <section class="my_portfolio">
             <div class="my_container_portfolio container-fluid ">
-                <div class="my_row_portfolio py-4 row">
+                <div class="my_row_portfolio row py-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 mx-auto text-center">
@@ -116,7 +116,7 @@
         <!-- inizio sezione about  -->
         <section class="my_about">
             <div class="container-fluid green">
-                <div class="my_row_about row py-4">
+                <div class="my_row_about row py-5">
                     <div class="container">
                         <div class="row">
                             <div class="col-12 mx-auto text-center">
@@ -153,7 +153,12 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-1 border mx-auto">bottone</div>
+                            <div class="col-12 mx-auto text-center">
+                                <button type="button" class="btn btn-outline-light">
+                                    <i class="fas fa-download"></i>
+                                    <span class="btn_about">Download</span> 
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>    
@@ -180,17 +185,38 @@
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-7 border mx-auto">Dati anagrafici</div>
+                            <div class="col-7 mx-auto ">
+                                <div class="mb-3 row border-bottom">
+                                    <label for="inputName" class="my_input col-sm-2 col-form-label">Name</label>
+                                    <div class="col-sm-10">
+                                        <input type="Text" class="my_input form-control" id="inputName">
+                                    </div>
+                                </div>
+                                <div class="mb-3 row border-bottom">
+                                    <label for="inputEmail" class="my_input col-sm-3 col-form-label">Email Address</label>
+                                    <div class="col-sm-9">
+                                        <input type="Email" class="my_input form-control" id="inputEmail">
+                                    </div>
+                                </div>
+                                <div class="mb-3 row border-bottom">
+                                    <label for="inputNumber" class="my_input col-sm-3 col-form-label">Phone Number</label>
+                                    <div class="col-sm-9">
+                                        <input type="Number" class="my_input form-control" id="inputNumber">
+                                    </div>
+                                </div>
+                                <div class="mb-3 row border-bottom">
+                                    <label for="inputText" class="my_input col-sm-2 col-form-label">Message</label>
+                                    <div class="col-sm-10">
+                                        <textarea class=" my_input form-control" placeholder="" id="floatingTextarea2" style="height: 100px"></textarea>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="container">
                         <div class="row">
-                            <div class="col-7 border mx-auto">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col-1 border">bottone</div>
-                                    </div>
-                                </div>
+                            <div class="my_col_container col-7 mx-auto">
+                                <button type="button" class=" my_btn-contact btn btn">Send</button>
                             </div>
                         </div>
                     </div>
@@ -203,13 +229,25 @@
         <!-- inizio sezione footer top -->
         <section class="my_address">
             <div class="container-fluid avio">
-                <div class="my_row_address row py-4">
-                    <div class="col-8 border mx-auto">
-                        <div class="container">
+                <div class="my_row_address row py-5">
+                    <div class=" col-8 mx-auto">
+                        <div class="my_container_address container">
                             <div class="row">
-                                <div class="col-4 border">Location</div>
-                                <div class="col-4 border">WEB</div>
-                                <div class="col-4 border">About</div>
+                                <div class="col-lg-4 col-sm-12 text-center pt-3">
+                                    <h5>LOCATION</h5>
+                                    <p>2215 John Daniel Drive Clark, MO 54243</p>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 text-center pt-3">
+                                    <h5>AROUND THE WEB</h5>
+                                    <span class="circol"><i class="fab fa-facebook-f"></i></span>
+                                    <span class="circol"><i class="fab fa-google-plus-g"></i></span>
+                                    <span class="circol"><i class="fab fa-twitter"></i></span>
+                                    <span class="circol"><i class="fab fa-linkedin-in"></i></span>
+                                </div>
+                                <div class="col-lg-4 col-sm-12 text-center pt-3">
+                                    <h5>ABOUT FREELANCER</h5>
+                                    <p>Freelance is a free to use, open source Bootstrap theme created by <span id="my_color_green" >Start Bootstrap</span>.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -220,8 +258,10 @@
         <!-- inizio sezione footer bottom -->
         <section class="my_credit">
             <div class="container-fluid gray">
-                <div class="my_row_credit row ">
-                    <div class="col-1 border mx-auto">Credit</div>
+                <div class="my_row_credit row py-3">
+                    <div class="col-12  text-center mx-auto">
+                        <p>Copyright <i class="far fa-copyright"></i> Your Website 2019</p>
+                    </div>
                 </div>
             </div>
         </section>
