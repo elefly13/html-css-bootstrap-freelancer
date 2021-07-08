@@ -14,9 +14,14 @@ body {
 .white {
     color: white;
 }
+.text_center {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 /* /common */
 /* sezione menu  */
-.my_nav-menu {
+#my_nav-menu {
     position: fixed;
     top: 0;
     left: 0;
@@ -25,6 +30,64 @@ body {
     z-index: 999;
 }
 /* / sezione menu */
+/* sezione banner  */
+.my_ban_img img {
+    width: 100%;
+}
+.my_ban_titolo h1 {
+    text-shadow: no-wrap;
+}
+.riga {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+.riga i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: rgb(0, 197, 158);
+}
+.riga_bk {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+}
+.riga_bk i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: white;
+}
+
+/* fine sezione banner  */
+/* sezione portfolio  */
+.my_portfolio {
+    color: black;
+}
+.my_portfolio img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* fine sezione portfolio  */
+/* sezione about  */
+/* fine sezione about  */
+/* sezione contact  */
+.my_contact {
+    color: black;
+}
+/* fine sezione contact  */
+
 
 
 
@@ -37,7 +100,7 @@ body {
     height: 50px;
 }
 .debug .my_row_banner {
-    height: 400px;
+    height: 100%;
 }
 .debug .my_row_portfolio {
     /* height: 100px; */
